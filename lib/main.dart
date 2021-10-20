@@ -10,6 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,6 +33,51 @@ class MyApp extends StatelessWidget {
       home: HomeView(),
     );
   }
+}
+
+class Adam {
+  String aty;
+  String familiya;
+  int telNo;
+
+  Adam({
+    this.aty,
+    this.familiya,
+    this.telNo,
+  });
+
+  tamakJe() {
+    //
+  }
+  basat() {
+    //
+  }
+}
+
+class Okuuchu extends Adam {
+  int mektepNo;
+  Okuuchu({this.mektepNo});
+
+  okuyt() {}
+
+  @override
+  tamakJe() {
+    // return super.tamakJe();
+    bashkaFunk() {}
+
+    return bashkaFunk();
+  }
+
+  @override
+  basat() {
+    return super.basat();
+  }
+}
+
+Okuuchu okuuchu = Okuuchu();
+
+okuuchuAty() {
+  okuuchu.familiya;
 }
 
 class MyHomePage extends StatefulWidget {
